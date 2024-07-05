@@ -7,6 +7,24 @@
   pointer-events: none;
 }
 
+.rbc-month-view {
+  border-radius: 25px;
+}
+
+.rbc-header {
+  text-align: right;
+}
+
+.rbc-off-range-bg {
+  background: none;
+}
+
+.rbc-event {
+  background-color: rgb(197, 197, 197);
+  color: black;
+  text-align: center;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
